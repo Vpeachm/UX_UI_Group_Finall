@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6cc4170283.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <title>San Francisco Public Library</title>
+
+</head>
+<body>
+    <header>
+        <!-- VERY TOP NAVBAR SECTION -->
+        <nav class="navbar navbar-expand-lg">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-map"></i> Hours and Locations  </a>
+              <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-wheelchair"></i> Accessibility </a>
+              <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-language"></i> Language</a>
+              <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-language uSpecifically"></i> Help</a>
+              <a class="nav-item nav-link" id="blackBox" href="#">Log In/ My SFPL <i class="fa-solid fa-angle-down"></i></a>
+            </div>
+          </div>
+        </nav>
+        <div class="divLine"> </div>
+
+    <!-- SEARCHBAR NAVBAR SECTION -->
+
+   <nav class="secondnav snavbar navbar-expand-lg rounded" aria-label="Eleventh navbar example">
+        <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="/index.html"> <img id="logoImg" src="/IMAGES/sfplLogo.png"> </a>
+        </div>
+       
+
+
+        <form class="form-inline my-2 my-lg-0">
+            
+
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+          </form>
+     
+      </nav> 
+
+      <div class="divLine"></div>
+
+  <!-- REGULAR 3RD NAVBAR FOR THE SITE -->
+  <nav class="thirdNav navbar-expand-lg navbar-light">
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/Final_Project/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Books & Media
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Research & Learn
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events & Exhibits
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Support & Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/Gift Shop Page/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Gift Shop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+            </div>
+          </li>
+
+    </div>
+  </nav>
+
+     <!-- <nav id="separateNav" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand" href="#"> <img id="logoImg" src="/IMAGES/sfplLogo.png"> </a>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    -->
+          
+    </header>
+<!-- Hero Image section-->
+    <div class="mainLib">
+        <img src="IMAGES/EventsHero.jpg" class="img-fluid" alt="...">
+
+    </div>
+
+<!-- FLOATING DIV WITH LIBRARY SIGN UP AND EVENTS-->
+
+<div class="floatieFlexy"> 
+
+    <div class="signUp">
+       <p id="upcomingEventsNexhibits"> Upcoming events and exhibits!</p>
+    </div>
+
+    <div class="eventsDude">
+      
+    </div>
+
+</div>
+
+
+<head>
+  <style>
+      table {
+          border-collapse: collapse;
+          background: white;
+          color: black;
+      }
+        
+      th,
+      td {
+          font-weight: bold;
+      }
+  </style>
+</head>
+
+<body>
+ 
+
+
+<head>
+  <link rel="stylesheet" href=
+"http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+  <script src=
+"http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js">
+  </script>
+
+  <style>
+      body {
+          line-height: 0 !important;
+      }
+  </style>
+</head>
+
+<div class="row">
+  <div class="col-6">
+  <body>
+  
+    <h2 align="center" style="color: #947459;">
+        July 2022
+    </h2>
+    <br />
+
+  
+    <table bgcolor="lightgrey" align="center" 
+        cellspacing="21" cellpadding="21">
+  
+  
+  
+        <caption align="top">
+          
+        </caption>
+       
+        <thead>
+            <tr>
+              
+                <th style="color: white; background: #847E79;">
+                    Sun</th>
+                <th style="color: white; background: #847E79;">
+                    Mon</th>
+                <th style="color: white; background: #847E79;">
+                    Tue</th>
+                <th style="color: white; background: #847E79;">
+                    Wed</th>
+                <th style="color: white; background: #847E79;">
+                    Thu</th>
+                <th style="color: white; background: #847E79;">
+                    Fri</th>
+                <th style="color: white; background: #847E79;">
+                    Sat</th>
+            </tr>
+        </thead>
+  
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+  </body>
+  </div>
+  
+<!--UPCOMING EVENTS-->
+  <div class="col-6 upcomingEventsPart"> 
+    <div class="lineDiv"></div>
+    <strong>Upcoming events</strong>
+    <div class="lineDiv2"></div>
+   
+    <div class="parent3 ">
+      <img src="IMAGES/Event1.png" class="img-fixed2" alt="people drinking">
+        <div class="col-6 firstEventPart"> <p><strong>Meet One-on-One with a Smart Money Coach</strong></p>
+        <p>Wednesday, 7/13/2022, 9:00 - 6:00</p>
+        <button>Read more</button>
+      </div>
+      </div>
+ 
+    </div> 
+  </div> 
+  </div>
+</div>
+</div>
+
+
+<div class="parent4">
+  <div>
+    <img src="IMAGES/Event2.png" class="img-fixed" alt="recording song">
+  </div>
+  <div>
+    <strong>Workshop: Introduction to Recording and Songwriting</strong>
+    <br>Wednesday, 7/13/2022, 5:00 - 5:30
+    <br> <button>Read more</button>
+  </div>
+  </div>
+  <div class="parent4">
+  <div><img src="IMAGES/Event3.png" class="img-fixed" alt="..."></div>
+  <div>
+    <strong>Taller: Ayuda de computación en español</strong>
+    <br>Wednesday, 7/13/2022, 6:00 - 7:30
+    <br> <button>Read more</button>
+  </div>
+  </div>
+</div>
+
+<div class="viewMore">
+  <button>View all events</button>
+</div>
+<!--<div class="lineDiv3"></div>
+
+ FEATURED EVENTS 
+
+<div class="eventsTitle"><h><strong>Featured Events</strong></h>
+</div> -->
+<div class="parent5">
+<div class="eventsTitle"><br>
+  <h><strong>Featured Events</strong></h>
+  <br><img src="IMAGES/FeaturedEvent1.png" class="img5" alt="library cartoon">
+</div>
+<div>  <img src="IMAGES/FeaturedEvent3.jpeg" class="img4" alt="author and book">
+</div>
+<div>  <img src="IMAGES/FeaturedEvent2.jpeg" class="img4" alt="cartoon map">
+</div>
+  <div>
+<div class="middleContent3"><p><i>Summer Stride 2022</i></p>
+<button>Read More</button>
+</div>
+</div>
+<div>
+<div class="middleContent3"><p><i>On the Same Page- Wild Rain</i></p>
+<button>Read More</button>
+</div>
+</div>
+<div>
+<div class="middleContent3"><p><i>SF PL Explorer Map</i></p>
+  <button>Read more</button>
+</div>
+</div>
+</div>
+
+<!--<div class="lineDiv3"></div>
+
+UPCOMING EXHIBITS-->
+
+<div class="exhibitsTitle"><h><strong>Upcoming Exhibits</strong></h>
+</div>
+
+
+<div class="parent">
+  <div class="exhibits1"> <img src="IMAGES/Exhibit1.jpeg" class="img2" alt="vegetable artwork="></div>
+  <div>
+    <div class="middleContent2">
+    <strong>Sustainability in Times of Scarcity: From World War II to Pandemic</strong>
+    <br> Saturday, April 16 - Thursday, August 4, 2022
+    <br> <button>Read more</button>
+  </div>
+  </div>
+  </div>
+</div>
+
+<div class="parent2">
+  <div>
+    <div class="middleContent">
+    <strong>Wild Forest: Art Exhibition by Christopher E. Korman</strong>
+      <br> Saturday, April 16 - Sunday, July 31, 2022
+      <br> <button>Read more</button>
+  </div>
+  </div>
+  <div class="exhibits2"> <img src="IMAGES/Exhibit2.jpeg" class="img3" alt="forest painting"></div>
+</div>
+
+<div class="parent">
+  <div class="exhibits1"> <img src="IMAGES/Exhibit3.jpeg" class="img2" alt="library shed"></div>
+  <div>
+    <div class="middleContent">
+      <strong>The Global Library Project  </strong>
+      <br> Saturday, June 11 - Sunday, November 13, 2022
+      <br> <button>Read more</button>
+  </div>
+  </div>
+</div>
+<div class="viewMore2">
+  <button>View all exhibits</button>
+  <br> <div class="lineDiv4"></div>
+
+</div>
+
+<footer>
+
+  <div class="firstFooter">
+
+    <div>
+     <p class="footerWords"> The San Francisco Public Library system is dedicated to free and equal access to information, knowledge, independent learning, and the  joys of reading for our diverse community.</p>
+    </div>
+
+    <div class="flexButtonsMother">
+       <div class="flexButtonChild"> <button class="roundMeOut" id="butSup">Support Us</button></div>
+       <div class="flexButtonChild"> <button class="roundMeOut" id="butVol">Volunteer With Us</button></div>
+       <div class="flexButtonChild"> <button class="roundMeOut" id="butFeed">Give Us Feedback</button></div>
+    </div>
+  </div>
+
+  <div class="secondFooterFlex"> 
+
+    <div class="listFlex"> 
+      <p class="listItemInFlex">About Us</p>
+    </div>
+
+    <div class="listFlex"> 
+      <p class="listItemInFlex">Library Commission</p>
+    </div>
+
+    <div class="listFlex"> 
+      <p class="listItemInFlex">Policies</p>
+    </div>
+
+    <div class="listFlex"> 
+      <p class="listItemInFlex">Careers</p>
+    </div>
+
+    <div class="listFlex"> 
+      <p class="listItemInFlex">Press Room</p>
+    </div>
+
+    <div class="listFlex"> 
+      <p class="listItemInFlex">Contact Us</p>
+    </div>
+
+    <div class="listFlex"> 
+      <p class="listItemInFlex">Classic Catalog</p>
+    </div>
+
+    <div class="listFlex"> 
+      <p class="listItemInFlex">FAQ</p>
+    </div>
+
+  </div>
+
+
+  <div class="lastFooterFlex">
+
+    <div class="sealOfSF">
+       <img id="seal" src="IMAGES/sealOfSF.png">
+    </div>
+
+    <div class="copyrightText">
+         <p id="copyright"> Copyright © 2002-2021 San Francisco Public Library. <br>
+          All rights reserved | Privacy Policy | Internet Use Policies</p>
+    </div>
+
+    <div class="socialMediaIconsFlex">
+
+        <div class="socialIcon">
+           <img class="iconsIcons" src="IMAGES/insta.png">
+        </div>
+
+        <div class="socialIcon">
+           <img class="iconsIcons" src="IMAGES/twitter.png">
+        </div>
+
+        <div class="socialIcon"> 
+          <img  class="iconsIcons" src="IMAGES/facebook.png">
+        </div>
+
+        <div class="socialIcon">
+          <img class="iconsIcons" src="IMAGES/youtube.png">
+        </div>
+
+    </div>
+
+
+
+  </div>
+
+</footer>
+
+
+
+</body>
+</html>
+
+
+

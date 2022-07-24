@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6cc4170283.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <title>San Francisco Public Library</title>
+
+</head>
+<body>
+    <header>
+        <!-- VERY TOP NAVBAR SECTION -->
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-map"></i> Hours and Locations  </a>
+                <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-wheelchair"></i> Accessibility </a>
+                <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-language"></i> Language</a>
+                <a class="nav-item nav-link" href="#">Help</a>
+                <a class="nav-item nav-link" id="blackBox" href="#">Log In/ My SFPL <i class="fa-solid fa-angle-down"></i></a>
+              </div>
+            </div>
+          </nav>
+          <div class="divLine"> </div>
+
+    <!-- SEARCHBAR NAVBAR SECTION -->
+
+   <nav class="secondnav snavbar navbar-expand-lg rounded" aria-label="Eleventh navbar example">
+        <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="index.html"> <img id="logoImg" src="/IMAGES/sfplLogo.png"> </a>
+        </div>
+
+       <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+          </form>
+      </nav>
+      <div class="divLine"></div>
+
+  <!-- REGULAR 3RD NAVBAR FOR THE SITE -->
+  <nav class="thirdNav navbar-expand-lg navbar-light">
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Final_Project/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Books & Media
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Research & Learn
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="EventsandExhibits/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Events & Exhibits
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Support & Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Gift Shop Page/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Gift Shop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+            </div>
+          </li>
+
+    </div>
+  </nav>
+
+     <!-- <nav id="separateNav" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand" href="#"> <img id="logoImg" src="/IMAGES/sfplLogo.png"> </a>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    -->
+          
+    </header>
+<!-- Hero Image section-->
+    <div class="mainLib">
+        <img src="IMAGES/mainLibraryHero.png" class="img-fluid" alt="...">
+
+    </div>
+
+<!-- FLOATING DIV WITH LIBRARY SIGN UP AND EVENTS-->
+
+<div class="floatieFlexy"> 
+
+    <div class="signUp">
+       <p id="signUpDude"> Sign up for a library card today!</p>
+       <div class="buttonInHere">
+       <button id="apply"> Apply Here</button>
+       </div>
+    </div>
+
+    <div class="eventsDude">
+      
+      <div class="headEventsDiv">
+           <h2 id="headEvents"> Events </h2>
+      </div>
+
+      <div class="divWithTwoDivsSquareAndMain">
+          <div class="squareBox">
+            <div class="smallRectangle">
+              <p class="jul"> <strong>JULY</strong></p>
+              <p class="day"> <strong> 25</strong></p>
+            </div>
+          </div>
+
+          <div class="mainEventBox">
+            <div class="descForMainBox"> 
+              <p class="workIt"> <u>Work it </u> </p>
+             <h2 class="titleOfEvent">  Tutorial: Meet One-on-One with a Smart Money Coach</h2>
+             <p class="eventCategory"> ADULT</p>
+           </div> 
+          </div>
+      </div>
+
+      <div class="divWithTwoDivsSquareAndMain">
+        <div class="squareBox">
+          <div class="smallRectangle">
+            <p class="jul"> <strong>JULY</strong></p>
+            <p class="day"> <strong> 25</strong></p>
+          </div>
+        </div>
+
+        <div class="mainEventBox">
+          <div class="descForMainBox"> 
+            <p class="workIt"> <u>Senior Interest</u> </p>
+           <h2 class="titleOfEvent">  Activity: OWLS Older Writers Laboratory</h2>
+           <p class="eventCategory"> ADULT</p>
+         </div> 
+        </div>
+    </div>
+
+    <div class="divWithTwoDivsSquareAndMain">
+      <div class="squareBox">
+        <div class="smallRectangle">
+          <p class="jul"> <strong>JULY</strong></p>
+          <p class="day"> <strong> 25</strong></p>
+        </div>
+      </div>
+
+      <div class="mainEventBox">
+        <div class="descForMainBox"> 
+          <p class="workIt"> <u>Storytime </u> </p>
+         <h2 class="titleOfEvent">  Storytime for Toddlers</h2>
+         <p class="eventCategory"> EARLY CHILDHOOD</p>
+       </div> 
+      </div>
+  </div>
+
+  <div class="divWithTwoDivsSquareAndMain">
+    <div class="squareBox">
+      <div class="smallRectangle">
+        <p class="jul"> <strong>JULY</strong></p>
+        <p class="day"> <strong> 25</strong></p>
+      </div>
+    </div>
+
+    <div class="mainEventBox">
+      <div class="descForMainBox"> 
+        <p class="workIt"> <u> Health and Wellness </u> </p>
+       <h2 class="titleOfEvent"> Community: Summer Lunch for Kids and Teens</h2>
+       <p class="eventCategory"> COMMUNITY</p>
+     </div> 
+    </div>
+</div>
+
+      <div>
+        <a class="moreEvents"> More Events</a>
+      </div>
+    </div>
+    <!-- ORIGINAL THAT DOESNT WORK LOL
+      <div class="mainEventBox">
+        <div class="squareBox">
+          <div class="smallRectangle">
+            <p class="jul"> <strong>JULY</strong></p>
+            <p class="day"> <strong> 25</strong></p>
+          </div>
+        </div>
+          <div class="descForMainBox"> 
+            <p class="workIt"> Work it</p>
+           <h2 class="titleOfEvent">  Tutorial: Meet One-on-One with a Smart Money Coach</h2>
+           <p class="eventCategory"> ADULT</p>
+         </div> 
+      </div>
+    -->
+</div>
+
+<section class="belowHero">
+
+<div class="flexCards">
+
+    <div class="card myCardStyle mx-4" style="width: 25rem;">
+      <img src="IMAGES/summerActivities.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p> GET READY FOR FUN</p>
+        <h3> Summer Stride 2022</h3>
+        <p class="card-text">
+          Discover activities for all ages and earn prizes for 20 hours of reading, exploration and learning this summer.
+        </p>
+      </div>
+    </div>
+
+    <div class="card myCardStyle mx-4" style="width: 25rem;">
+      <img src="IMAGES/hereToGetYouThere.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p> WORK IT</p>
+        <h3> We're Here to Get You There</h3>
+        <p class="card-text">
+          Start a new career, earn a degree, grow your small business and build your literacy skills.
+        </p>
+        </div>
+    </div>
+
+
+    <div class="card myCardStyle mx-4" style="width: 25rem;">
+      <img src="IMAGES/Authors.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p> AUTHOR TALK</p>
+        <h3> Local and National Authors Take Center Stage</h3>
+        <p class="card-text">
+          We host local and national writers both in-person and virtually. See who’s coming next….
+        </p>
+      </div>
+    </div>
+
+</div>
+  
+</section>
+
+<section>
+
+<div> 
+  <h2 class="sectionHead"> Events and Exhibitions</h2>
+</div>
+
+
+<div class="moreFlexCards">
+     
+  <div class="card mx-2" style="width: 16rem;">
+    <img src="IMAGES/moneyCoach.png" class="card-img-top" alt="...">
+    <div class="card-body longer">
+      <p> 9:00 - 5:45 <br> TODAY!</p>
+      <h3 class="smallerHead"> Tutorial: Meet One-on-One with a Smart Money Coach</h3>
+      <p class="card-text"> @ The Main Library</p>
+    </div>
+  </div>
+
+  <div class="card mx-2" style="width: 16rem;">
+    <img src="IMAGES/owl.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p> 10:00 - 12:30 <br> TODAY!</p>
+      <h3 class="smallerHead"> Activity: OWLS Older Writers Laboratory</h3>
+      <p class="card-text"> @ Bernal Heights Location</p>
+    </div>
+  </div>
+
+  <div class="card mx-2" style="width: 16rem;">
+    <img src="IMAGES/storytime.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p> 10:15 - 10:45 <br> TODAY!</p>
+      <h3 class="smallerHead"> Storytime For Toddlers</h3>
+      <p class="card-text"> @ Merced Location</p>
+    </div>
+  </div>
+
+  <div class="card mx-2" style="width: 16rem;">
+    <img src="IMAGES/summerLunch.jpeg" class="card-img-top" alt="...">
+    <div  id="noTop" class="card-body">
+      <div class="card-body">
+        <p> 11:30 - 12:30 <br> TODAY!</p>
+        <h3 class="smallerHead"> Community: Summer Lunch for Kids and Teens</h3>
+        <p class="card-text"> @ The Main Library</p>
+    </div>
+  </div>
+ </div>
+ </div>
+
+<div class="moreEventsButton"> 
+  <button class="seeMoreBtn"> <a> <u>More Events and Exhibitions </u> </a></button>
+</div>
+
+</section>
+
+<!---->
+
+<div> 
+  <h2 class="sectionHead"> Black Music Appreciation Month</h2>
+</div>
+
+<div class="flexImages">
+
+     <div>
+       <img  class="bmamImage" src="IMAGES/mahaliaJackson.jpeg">
+       <p class="bookDesc"> <strong class="alsoSize">Mahalia Jackson and the Black Gospel Field </strong><br>
+      Burford, Mark</p>
+     </div>
+
+      <div>
+        <img  class="bmamImage" src="IMAGES/theMotherlode.jpeg">
+        <p class="bookDesc"> <strong class="alsoSize">The Motherlode </strong><br>
+          Hope, Clover</p>
+      </div>
+
+      <div>
+       <img class="bmamImage" src="IMAGES/aLittleDevilInAmerica.jpeg">
+       <p class="bookDesc"> <strong class="alsoSize">A Little Devil in America</strong><br>
+        Abdurraqib, Hanif</p>
+      </div>
+
+      <div>
+       <img class="bmamImage" src="IMAGES/musicIsHistory.jpeg">
+       <p class="bookDesc"> <strong class="alsoSize">Music is History</strong><br>
+        Questlove</p>
+      </div>
+
+     <div>
+      <img class="bmamImage" src="IMAGES/ninaSimone.jpeg">
+      <p class="bookDesc"> <strong class="alsoSize">Feeling Good</strong><br>
+        Simone, Nina</p>
+     </div>
+
+     <div>
+      <img class="bmamImage" src="IMAGES/summerOfSoul.jpeg">
+      <p class="bookDesc"> <strong class="alsoSize">Summer of Soul (...or When the Revolution Could Not Be Televised)</strong><br>
+        </p>
+     </div>
+
+</div>
+
+<div> 
+  <h2 class="sectionHead"> Books Coming Soon</h2>
+</div>
+
+<div class="flexImages">
+
+  <div>
+    <img  class="bmamImage" src="IMAGES/witches.jpeg">
+    <p class="bookDesc"> <strong class="alsoSize">Witches</strong><br>
+      Lozano, Brenda/ Cleary, Heather (TRN)</p>
+  </div>
+
+   <div>
+     <img  class="bmamImage" src="IMAGES/scenesFromMyLife.jpeg">
+     <p class="bookDesc"> <strong class="alsoSize">Scenes From My Life</strong><br>
+      Williams, Michael Kenneth</p>
+   </div>
+
+   <div>
+    <img class="bmamImage" src="IMAGES/nomadCentury.jpeg">
+    <p class="bookDesc"> <strong class="alsoSize">Nomad Century</strong><br>
+      Vince, Gaia</p>
+   </div>
+
+   <div>
+    <img class="bmamImage" src="IMAGES/storiesFromTheTenantsDownstairs.jpeg">
+    <p class="bookDesc"> <strong class="alsoSize">Stories From the Tenants Downstairs</strong><br>
+      Fofana, Sidik</p>
+   </div>
+
+  <div>
+   <img class="bmamImage" src="IMAGES/diaryOfaVoid.jpeg">
+   <p class="bookDesc"> <strong class="alsoSize">Diary of a Void</strong><br>
+    Yagi, Emi</p>
+  </div>
+
+  <div>
+   <img class="bmamImage" src="IMAGES/californiaSoul.jpeg">
+   <p class="bookDesc"> <strong class="alsoSize">California Soul</strong><br>
+    Corbin, Keith</p>
+  </div>
+
+</div>
+
+<section>
+     
+  <div> 
+    <h2 class="sectionHead"> Research and Learn</h2>
+  </div>
+
+      <div class="griddie">
+          
+        <div class="gridItem"> 
+          <div class="logoFlex">
+            <img class="researchLogo" src="IMAGES/articles-databases_0.png">
+          </div>
+          <div class="titleOfResource">
+            <p> Articles & Databases</p>
+          </div>
+        </div>
+
+        <div class="gridItem"> 
+          <div class="logoFlex">
+            <img class="researchLogo" src="IMAGES/camera.png">
+          </div>
+          <div class="titleOfResource">
+            <p> SF Digital Collections</p>
+          </div>
+        </div>
+
+        <div class="gridItem"> 
+          <div class="logoFlex">
+            <img class="researchLogo" src="IMAGES/22_Exhibtions_wht.png">
+          </div>
+          <div class="titleOfResource">
+            <p> Exhibits</p>
+          </div>
+        </div>
+
+        <div class="gridItem"> 
+          <div class="logoFlex">
+            <img class="researchLogo" src="IMAGES/10_eLearning_wht.png">
+          </div>
+          <div class="titleOfResource">
+            <p> ELearning</p>
+          </div>
+        </div>
+
+        <div class="gridItem"> 
+          <div class="logoFlex">
+            <img class="researchLogo" id="urTooTall" src="IMAGES/literacy_0.png">
+          </div>
+          <div class="titleOfResource" id="onlyThis">
+            <p> Literacy Programs</p>
+          </div>
+        </div>
+
+        <div class="gridItem"> 
+          <div class="logoFlex">
+            <img class="researchLogo" src="IMAGES/research-tools.png">
+          </div>
+          <div class="titleOfResource">
+            <p> Research Tools</p>
+          </div>
+        </div>
+
+      </section>
+
+
+      <section>
+
+     <div> 
+       <h2 class="sectionHead"> Support and Services </h2>
+     </div>
+
+     <div class="griddie">
+          
+      <div class="gridItem"> 
+        <div class="logoFlex">
+          <img class="researchLogo" src="IMAGES/24_Disability_Access_wht.png">
+        </div>
+        <div class="titleOfResource">
+          <p> Accessibility & Services</p>
+        </div>
+      </div>
+
+      <div class="gridItem"> 
+        <div class="logoFlex">
+          <img class="researchLogo" src="IMAGES/26_FAQs_wht.png">
+        </div>
+        <div class="titleOfResource">
+          <p> Borrowing FAQ</p>
+        </div>
+      </div>
+
+      <div class="gridItem"> 
+        <div class="logoFlex">
+          <img class="researchLogo" src="IMAGES/28_ImmigrantServices_wht.png">
+        </div>
+        <div class="titleOfResource">
+          <p> Citizenship Resources</p>
+        </div>
+      </div>
+
+      <div class="gridItem"> 
+        <div class="logoFlex">
+          <img class="researchLogo" src="IMAGES/10_eLearning_wht.png">
+        </div>
+        <div class="titleOfResource">
+          <p> Business & Finance Resources</p>
+        </div>
+      </div>
+
+      <div class="gridItem"> 
+        <div class="logoFlex">
+          <img class="researchLogo" id="urTooTall" src="IMAGES/34_HomeworkHelpns._wht.png">
+        </div>
+        <div class="titleOfResource" id="onlyThis">
+          <p> Homework Help</p>
+        </div>
+      </div>
+
+      <div class="gridItem"> 
+        <div class="logoFlex">
+          <img class="researchLogo" src="IMAGES/40_JobsCareers.png">
+        </div>
+        <div class="titleOfResource">
+          <p> Job Resources</p>
+        </div>
+      </div>
+     </div>
+
+</section>
+
+
+<seciton> 
+ <div class="merchFlexMom"> 
+   
+    <div class="merchFlexChildLeft">
+      <h2 class="giftShopHead" > Gift Shop</h2>
+      <p class="merchDesc"> Shop our cool merch collections to show your support of the SF Public Library! Our latest collections of merch include: The Original Collection, Fruit Collection, I Can't Read Collection, and The George Orwell 1984 Collection. Half of the proceeds
+        go to supporting our literacy program and services for children at the library!
+      </p>
+      <img class="leftMerch" src="IMAGES/leahshirt.png">
+    </div>
+
+    <div class="merchFlexChildRight">
+      <div class="merchGrid">
+
+        <div class="merchItem" >
+          <img id="leahTote" src="IMAGES/leahtote.png">
+         </div>
+
+         <div class="merchItem" >
+           <img id="alexisHat" src="IMAGES/alexisLiberry.jpg">
+         </div>
+
+         <div class="merchItem" >
+          <img id="kaeleeSocks" src="IMAGES/kaeleesocks.jpg">
+         </div>
+
+
+         <div class="merchItem" >
+          <img  id="valSticker" src="IMAGES/valeriesticker.png">
+         </div>
+
+      </div>
+    </div>
+  </div>
+</seciton>
+
+
+
+<footer>
+
+    <div class="firstFooter">
+
+      <div>
+       <p class="footerWords"> The San Francisco Public Library system is dedicated to free and equal access to information, knowledge, independent learning, and the  joys of reading for our diverse community.</p>
+      </div>
+
+      <div class="flexButtonsMother">
+         <div class="flexButtonChild"> <button class="roundMeOut" id="butSup">Support Us</button></div>
+         <div class="flexButtonChild"> <button class="roundMeOut" id="butVol">Volunteer With Us</button></div>
+         <div class="flexButtonChild"> <button class="roundMeOut" id="butFeed">Give Us Feedback</button></div>
+      </div>
+    </div>
+
+    <div class="secondFooterFlex"> 
+
+      <div class="listFlex"> 
+        <p class="listItemInFlex">About Us</p>
+      </div>
+
+      <div class="listFlex"> 
+        <p class="listItemInFlex">Library Commission</p>
+      </div>
+
+      <div class="listFlex"> 
+        <p class="listItemInFlex">Policies</p>
+      </div>
+
+      <div class="listFlex"> 
+        <p class="listItemInFlex">Careers</p>
+      </div>
+
+      <div class="listFlex"> 
+        <p class="listItemInFlex">Press Room</p>
+      </div>
+
+      <div class="listFlex"> 
+        <p class="listItemInFlex">Contact Us</p>
+      </div>
+
+      <div class="listFlex"> 
+        <p class="listItemInFlex">Classic Catalog</p>
+      </div>
+
+      <div class="listFlex"> 
+        <p class="listItemInFlex">FAQ</p>
+      </div>
+
+    </div>
+
+
+    <div class="lastFooterFlex">
+
+      <div class="sealOfSF">
+         <img id="seal" src="IMAGES/sealOfSF.png">
+      </div>
+
+      <div class="copyrightText">
+           <p id="copyright"> Copyright © 2002-2021 San Francisco Public Library. <br>
+            All rights reserved | Privacy Policy | Internet Use Policies</p>
+      </div>
+
+      <div class="socialMediaIconsFlex">
+
+          <div class="socialIcon">
+             <img class="iconsIcons" src="IMAGES/insta.png">
+          </div>
+
+          <div class="socialIcon">
+             <img class="iconsIcons" src="IMAGES/twitter.png">
+          </div>
+
+          <div class="socialIcon"> 
+            <img  class="iconsIcons" src="IMAGES/facebook.png">
+          </div>
+
+          <div class="socialIcon">
+            <img class="iconsIcons" src="IMAGES/youtube.png">
+          </div>
+
+      </div>
+
+
+
+    </div>
+
+</footer>
+
+
+
+</body>
+</html>
